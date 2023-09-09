@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue";
+}
+
+p {
+  font-family: sans-serif;
+}
+
+#banner {
+  width: 100%;
+  height: 80vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../media/background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  width: 100%;
+  margin: auto;
+  color: white;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.content h1 {
+  margin: 20px 0;
+  font-weight: 100;
+  font-size: 3.5em;
+}
+
+.content p {
+  text-align: left;
+  width: 50%;
+  margin: 20px auto;
+  font-weight: 100;
+  font-size: 1.25em;
+}
+
+.feature {
+  width: 100%;
+  padding: 70px 0;
+}
+
+.title-text {
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.title-text h2 {
+  font-size: 2.5em;
+}
+
+.features {
+  padding: 20px;
+  text-align: center;
+}
+
+.features img {
+  display: block;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.features h3 {
+  margin: 20px 0;
+  font-size: 1.75em;
+}
+
+.features p {
+  text-align: left;
+}
+
+.footer {
+  margin-top: 20px;
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons i {
+  font-size: 1.5em;
+}
+
+@media (max-width: 767px) {
+  .footer {
+      text-align: center;
+  }
+
+  .social-icons {
+      margin-top: 10px;
+  }
+}
+
+#instructors .features img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
+  height: 200px;
+}
+
+#instructors .features img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.video-content {
+  text-align: center;
+}
+
+video {
+  width: 600px;
+  height: 315px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  #banner {
+      height: 80vh;
+  }
+
+  .content {
+      width: 100%;
+      margin: auto;
+      color: white;
+      position: absolute;
+      top: 50%;
+      text-align: center;
+  }
+
+  .content p {
+      width: 85%;
+      font-size: 1em;
+  }
+  .content h1 {
+    font-size: 2.2em;
+  }
+
+  .title-text h2 {
+      font-size: 1.8em;
+  }
+
+  video {
+      width: 85%;
+      height: 150px;
+  }
+
+  table {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+  }
+
+  form {
+      display: block;
+      justify-content: space-between;
+      width: 80%;
+      margin: auto;
+  }
+}
+
+  .navbar-collapse {
+    z-index: 99;
+  }
+  a:visited {
+    color: purple;
+    font-weight: bold;
+  }
+
+  .instructors-video a:visited {
+    color: inherit;
+  }
+  
